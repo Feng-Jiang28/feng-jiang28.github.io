@@ -10,14 +10,14 @@ const moocscards = [
     moocLink: "https://www.coursera.org/browse/data-science",
   },
   {
-    title: "Cryptography",
+    title: "React",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Web Development",
+    cardImage: "assets/images/education-page/udemy.svg",
+    moocLink: "https://www.udemy.com/course/the-web-developer-bootcamp/learn/lecture/22587506#overview",
   },
   {
     title: "Introduction to HTML 5",
@@ -40,15 +40,15 @@ const moocscards = [
     moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "MySQL",
+    cardImage: "assets/images/education-page/udemy.svg",
+    moocLink: "https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/learn/lecture/34511736#overview",
   },
   {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    title: "Linux",
+    cardImage: "assets/images/education-page/udemy.svg",
     moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+      "https://www.udemy.com/course/linux-mastery/learn/lecture/8526918#overview",
   },
   {
     title: "NodeJS, Express and MongoDB",
