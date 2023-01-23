@@ -15,15 +15,15 @@ const projects = [
   },
   {
     title: "Food Hunt",
-    cardImage: "assets/images/project-page/chess.jpg",
+    cardImage: "assets/images/project-page/FoodHunt.png",
     description: "A website written by HTML/CSS Javascript",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "",
+    Previewlink: "https://evening-earth-38529.herokuapp.com/",
     Githublink: "",
   },
   {
     title: "Naruto Fighting Android App",
-    cardImage: "assets/images/project-page/flappybird.png",
+    cardImage: "assets/images/project-page/Naruto.png",
     description: "Game fighting app written by Android.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
