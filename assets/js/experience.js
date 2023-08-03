@@ -6,6 +6,17 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Software Development Intern",
+    cardImage: "assets/images/experience-page/GaoTek.png",
+    place: "GaoTek",
+    time: "(Jan, 2023 - March, 2023)",
+    desp: "<li>Improved modem system initialization and communication using C programming at GAOTek Inc., a globally" +
+        "recognized top 10 leader in high-tech equipment and solutions for industrial engineering applications.</li>" +
+        "<li>Boosted data transfer efficiency by 50% through an optimized solution, minimizing buffer overflows and unnecessary data copying.</li>" +
+        "<li>Reduced software delivery time and improved reliability by implementing a CI/CD pipeline in an AWS-based\n" +
+        "environment for automated testing and deployment.<li>",
+  },
+  {
+    title: "Software Development Intern",
     cardImage: "assets/images/experience-page/MetaApp.jpeg",
     place: "Meta App",
     time: "(May, 2022 - Aug, 2022)",
@@ -24,13 +35,11 @@ const exp = [
         "<li>Built and support the RPC serivce allowing faster system inner communications.</li>",
   },
   {
-    title: "Research Intern",
+    title: "Research Assistant",
     cardImage: "assets/images/experience-page/CCU.jpg",
     place: "Coastal Carolina University",
     time: "(May - Aug, 2021)",
-    desp: "<li>Worked for the Department of Physics to develop an educational circuit simutator.</li>" +
-        "<li>Designed simulator that would help faculty and student undersand the idea of electronic devices," +
-        "Wrote codes to implement ideal electronic devices into real by codes.</li>",
+    desp: "<li>Worked as a research assistant in the Department of Physics to develop an educational circuit simulator. The work is adopted by the university and still in use by faculty.</li>",
   },
 ];
 
