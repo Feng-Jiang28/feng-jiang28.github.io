@@ -4,42 +4,47 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+
+  {
+    title: "Founder",
+    cardImage: "assets/images/experience-page/LuckyKitty.PNG",
+    place: "LuckyKitty",
+    time: "(May, 2023 - Present)",
+    desp: "<li>LuckyKitty is a thriving online marketplace that revolutionizes the way university students exchange second-hand items. By creating an eBay-like e-commerce platform that is both user-friendly and secure, LuckyKitty has transformed the local buy-and-sell landscape for students.</li>" +
+        "<li>As the Founder of LuckyKitty, I have been instrumental in conceptualizing and executing the idea from its inception. My work ranges from overseeing the system's architectural design to spearheading a development team committed to delivering robust and scalable solutions.</li>",
+  },
+
   {
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/GaoTek.png",
     place: "GaoTek",
     time: "(Jan, 2023 - March, 2023)",
-    desp: "<li>Improved modem system initialization and communication using C programming at GAOTek Inc., a globally" +
-        "recognized top 10 leader in high-tech equipment and solutions for industrial engineering applications.</li>" +
-        "<li>Boosted data transfer efficiency by 50% through an optimized solution, minimizing buffer overflows and unnecessary data copying.</li>" +
-        "<li>Reduced software delivery time and improved reliability by implementing a CI/CD pipeline in an AWS-based\n" +
-        "environment for automated testing and deployment.<li>",
+    desp: "<li>GAOTek Inc., a global leader in high-tech industrial engineering solutions, is renowned for its innovation in creating sophisticated equipment for diverse applications. Known for its commitment to quality and technical excellence, GAOTek Inc. consistently sets benchmarks in various industrial engineering domains.</li>" +
+        "<li>As a part of the software development team, I focused on enhancing the modem system initialization and communication using C programming. My contributions to data transfer optimization resulted in a 50% increase in efficiency, significantly minimizing buffer overflows and reducing unnecessary data copying. </li>" +
+        "<li>Beyond the code, I leveraged the power of AWS to implement a robust CI/CD pipeline, which notably accelerated software delivery times and fortified reliability. This initiative not only streamlined the testing and deployment processes but also established a foundation for better software development practices.</li>",
   },
   {
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/MetaApp.jpeg",
     place: "Meta App",
     time: "(May, 2022 - Aug, 2022)",
-    desp: "<li>Worked in a team of 20 responsible for game recommadation service design and performance optimization. </li>" +
-        " <li>Designed Content Library Cache service responsible for system performance and accessibility improvement.</li> " +
-        "<li>Migrated advertisement service from old Spring framework to Beego framework.<li>" +
-        "<li>Evaluated over 20 test cases and debugged 5 test failures.</li>",
+    desp: "<li>MetaApp is a pioneering tech company that provides a virtual interactive content creation platform for users of all ages. Its User Generated Content (UGC) game editor and a variety of creator tools and services significantly lower the barriers to creating and hosting multiplayer content, thereby democratizing the virtual world experience.</li>" +
+        "<li>In my role as a Software Development Intern, I was a part of the recommendation service department, which is responsible for handling millions of daily requests. This high-traffic, high-impact role offered me a challenging yet enriching experience in navigating large-scale systems, developing efficient algorithms, and implementing robust solutions.</li>",
   },
   {
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/chinatelecom.jpg",
     place: "China Telecommunication Cooperation",
     time: "(May - Aug, 2019)",
-    desp: "<li>Worked for the back-end service api design.</li>" +
-        "<li>Implemented database optimization and performance improvement.</li>" +
-        "<li>Built and support the RPC serivce allowing faster system inner communications.</li>",
+    desp: "<li>China Telecommunication Corporation is one of the largest state-owned telecommunication companies in China. They are dedicated to providing comprehensive and high-quality information services including fixed-line telephone, broadband internet, mobile communications, and more. </li>" +
+        "<li>I enabled efficient data management and improved system performance, directly impacting the speed and reliability of communication services for customers for a software team.</li>",
   },
   {
     title: "Research Assistant",
     cardImage: "assets/images/experience-page/CCU.jpg",
     place: "Coastal Carolina University",
     time: "(May - Aug, 2021)",
-    desp: "<li>Worked as a research assistant in the Department of Physics to develop an educational circuit simulator. The work is adopted by the university and still in use by faculty.</li>",
+    desp: "<ul>I worked as a research assistant in the Department of Physics to develop an educational circuit simulator. The work is adopted by the university and still in use by faculty.</ul>",
   },
 ];
 
